@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="?android:attr/listPreferredItemHeight"
+>
+
+
+
+<TextView
+
+    android:id="@+id/firstLine"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+android:layout_marginLeft="5dp"
+    android:textStyle="bold"
+    android:layout_alignParentTop="true"
+    android:layout_alignWithParentIfMissing="true"
+
+    android:gravity="center_vertical"
+
+    android:textSize="16sp" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/secondLine"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+       android:layout_marginTop="10dp"
+        android:textSize="12sp" />
+    <Button
+android:clickable="true"
+        android:id="@+id/call"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+  android:layout_marginTop="20dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/call"
+        />
+</RelativeLayout>
